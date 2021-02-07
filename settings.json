@@ -1,0 +1,16 @@
+{
+    "files.autoGuessEncoding": true,
+    "[csharp]": {
+        "editor.defaultFormatter": "Leopotam.csharpfixformat"
+    },
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.linting.banditEnabled": true,
+
+    "python.autoComplete.extraPaths": [ "D:\\Program Files\\Side Effects Software\\Houdini 17.5.425\\houdini\\python2.7libs" ],
+    "terminal.integrated.env.windows": { 
+        "PYTHONPATH" : "D:\\Program Files\\Side Effects Software\\Houdini 17.5.425\\houdini\\python2.7libs",
+        "PATH" : "${env:PATH};D:\\Program Files\\Side Effects Software\\Houdini 17.5.425\\bin"
+    }
+}
